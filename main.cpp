@@ -10,6 +10,7 @@ ofstream cout("output.txt");
 const int size = 1000;
 bool graph[size][size];
 bool used[size];
+bool is_deleted[size];
 int group[size];
 int count_ = 0;
 int dist[size][size];
@@ -83,7 +84,7 @@ void get_alone_nodes(){
     for (int i = 0; i < size; i++) {
         bool ok = false;
         for (auto &x : graph[i]) ok |= x;
-        if (!ok) {
+        if (!ok && !is_deleted[i]) {
             alone_nodes_number++;
             ans_for_alone_nodes.push_back(i);
         }
@@ -169,6 +170,7 @@ int main() {
          deleted.push_back(i);
      }
      for(auto &x : deleted){
+         is_deleted[x] = true;
          for(int i = 0; i < size; i++){
              graph[i][x] = false;
              graph[x][i] = false;
