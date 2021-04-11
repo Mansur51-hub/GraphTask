@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Mansur51/Desktop/Mansur/diskret_math/main.cpp
+iostream
+-
+fstream
+-
+map
+-
+string
+-
+vector
+-
+
