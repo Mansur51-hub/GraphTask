@@ -1,3 +1,0 @@
-C:/Users/Mansur51/Desktop/Mansur/diskret_math/cmake-build-debug/CMakeFiles/diskret_math.dir
-C:/Users/Mansur51/Desktop/Mansur/diskret_math/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Mansur51/Desktop/Mansur/diskret_math/cmake-build-debug/CMakeFiles/rebuild_cache.dir
